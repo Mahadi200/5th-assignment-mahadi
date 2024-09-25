@@ -10,17 +10,17 @@
 </head>
 
 <body>
-  <header class="mt-5 relative">
+  <header class=" relative">
     <nav class=" ">
-      <div class=" container mx-auto     ">
+      <div class="    ">
 
-        <div class="navbar bg-base-100">
+        <div class="navbar bg-base-200">
           <div class=" navbar-start">
-            <div><button class="btn bg-lime-300">Blog</button>
+            <div><button class="btn bg-lime-300"> <a href="blog.html" target="_blank">Blog</a></button>
             </div>
           </div>
           <div class=" navbar-center">
-            <a class="btn btn-ghost text-xl">Donate Bangladesh</a>
+            <a class="btn btn-ghost text-xl"> <img src="./assets/logo.png" alt="logo">Donate Bangladesh</a>
           </div>
           <div class="navbar-end">
             <button class="btn "> <img src="./assets/coin.png" alt="coin">5000 BDT</button>
@@ -43,7 +43,7 @@
         <img src="./assets/noakhali.png" alt="qouta" class="w-full h-full">
       </div>
       <div class="w-3/5">
-        <button class="btn"><img src="./assets/coin.png" alt="">2000 BDT</button>
+        <button class="btn" id=""><img src="./assets/coin.png" alt=""><span id="amount-is">2000</span> BDT</button>
         <h1 class="font-bold text-xl mt-7 mb-7">Donate for Flood at Noakhali, Bangladesh</h1>
         <p class="mb-7">The recent floods in Noakhali have caused significant damage to homes infrastructure. Your
           donation will help
@@ -52,10 +52,10 @@
           Please
           join us in supporting the relief efforts and making a positive impact on the lives of those in need.</p>
         <div class="mb-7 ">
-          <input type="text" placeholder="Write amount" class="input input-bordered w-full w-3/5" />
+          <input type="text" placeholder="Write amount" class="input input-bordered w-full w-3/5" id="input-donate" />
         </div>
 
-        <button class="btn  bg-lime-300 w-full w-3/5">Donate now</button>
+        <button id="donate-btn" class="btn  bg-lime-300 w-full w-3/5">Donate now</button>
       </div>
     </div>
     <div class="flex flex-row px-5 py-5 border-solid border-2 border-gray-300 rounded-xl mt-20">
@@ -109,7 +109,7 @@
   <footer>
 
   </footer>
-
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
