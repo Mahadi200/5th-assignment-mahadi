@@ -66,7 +66,7 @@ function allAroundDonationFunction(
 
     // comment section
     const historyComment = document.getElementById(historyCommentID).innerText;
-    const date = new Date();
+    const date = new Date().toLocaleString('en-US',{timeZone : 'Asia/Dhaka',timeStyle : 'medium',dateStyle : 'full'});
     const hisoryitem = document.createElement("div");
     hisoryitem.className = "shadow-lg p-4 space-y-4 rounded-md";
     hisoryitem.innerHTML = `<p class= text-xl>
